@@ -53,6 +53,9 @@
                         <a href="quiz_category.php"> <i class="menu-icon fa fa-dashboard"></i>Add and Edit Quiz</a>
                     </li> 
                     <li>
+                        <a href="quiz_category_get.php"> <i class="menu-icon fa fa-dashboard"></i>Add and Edit Quiz with GET method</a>
+                    </li> 
+                    <li>
                         <a href="add_edit_quiz_questions.php"> <i class="menu-icon fa fa-dashboard"></i>Add and Edit Questions</a>
                     </li> 
                     <li>

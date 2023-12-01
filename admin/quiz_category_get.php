@@ -31,7 +31,7 @@ if(!isset($_SESSION["admin"]))
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="card">
-                            <form name="form1" action="" method="post">
+                            <form name="form1" action="" method="get">
                             <div class="card-body">
                                 <div class="col-lg-6">
                                     <div class="card">
@@ -100,16 +100,15 @@ if(!isset($_SESSION["admin"]))
             </div><!-- .animated -->
         </div><!-- .content -->
 
-
 <?php
-if (isset($_POST["submit1"]))
+if (isset($_GET["submit1"]))
 {
-    mysqli_query($link,"insert into categories values(NULL,'$_POST[quizname]','$_POST[quiztime]')") or die(mysqli_error($link));
+    mysqli_query($link,"insert into categories values(NULL,'$_GET[quizname]','$_GET[quiztime]')") or die(mysqli_error($link));
     ?>
     
     <script type="text/javascript">
-        alert("Quiz was added successfully");
-        window.location.href=window.location.href;
+        //alert("Quiz was added successfully");
+        window.location.href="http://localhost/quiz_app_WasilewskiSikora/admin/quiz_category.php";
     </script>
 
     <?php
