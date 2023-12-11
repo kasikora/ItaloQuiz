@@ -37,13 +37,21 @@ Zrób to będąc zalogowanym na koncie 'zadania'.
 
 ### 1.2
 
-Tutaj będziesz miał analogiczne zadanie, jednak stwórz skrypt .html, który po otwarciu tej strony automatycznie doda nam post o treści: "Wraz z dzisiejszym dniem kończę współpracę z moimi sponsorami"
+Tutaj będziesz miał analogiczne zadanie, jednak stwórz skrypt .html, który po otwarciu tej strony automatycznie doda nam post o treści: "Wraz z dzisiejszym dniem kończę współpracę z moimi sponsorami". </br>
+Zrób to będąc zalogowanym na koncie 'zadania'.
 
 > podpowiedź: fałszywe zdjęcie
 
 ## Zadanie 2- CSRF POST
 
+Napisz skrypt .html, który po kliknięciu w przycisk na tej stronce będzie przesyłał formularz z gotowym postem o treści: "Chciałbym ogłosić przekazanie swojego majątku fundacji walki z k"</br>
+Zrób to będąc zalogowanym na koncie 'zadania'.
 
+> uwaga: jest to atak metodą POST, więc musisz zaatakować stronę, która dodaje posty właśnie tą metodą -> mainpage.php
 
 ## Zadanie 3- login CSRF
 
+Stwórz nowe konto w bazie danych (zrób to w phpmyadmin w tabeli 'login'). </br>
+Przeprowadź atak login CSRF, czyli stwórz skrypt, dzięki któremu klikając coś na stronie (tej stworzonej teraz przez Ciebie) zalogujesz się na to nowo stworzone konto. Następnie dodaj tam jakiś post.
+
+## Zadanie 4
