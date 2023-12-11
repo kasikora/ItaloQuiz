@@ -70,11 +70,14 @@ Token CSRF jest najbardziej popularnym zabezpieczeniem przed atakami CSRF. Poleg
 Aby zabezpieczenie działało poprawnie, należy wygenerować unikalny token przy ustanawianiu nowej sesji, na przykład podczas logowania się przez użytkownika. Warto przechowywać taki token w zmiennej $_SESSION.
 
 Psst!! Gdzieś w tym miejscu trzeba to zrobić (loginpage.php)
+
 ![5a](https://github.com/miwasil/ItaloQuizz/assets/115181450/6107a243-fdde-4961-a78b-97b658b5199a)
 
 ## b) Przekazywanie tokenu CSRF klientowi
 
 Następnie należy przekazać token CSRF klientowi. W zapytaniach POST używa się do tego pola input z parametrem hidden. Dzięki temu token będzie przesyłany za każdym razem, gdy używamy konkretnego formularza. Robimy to w formularzu w pliku mainpage.php. 
+
+Takie pole może wyglądać w ten sposób
 
 ![5b](https://github.com/miwasil/ItaloQuizz/assets/115181450/87a75bb3-3205-4b7d-99e7-de51ccffc034)
 
