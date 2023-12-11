@@ -44,7 +44,7 @@ Zrób to będąc zalogowanym na koncie 'zadania'.
 
 ## Zadanie 2- CSRF POST
 
-Napisz skrypt .html, który po kliknięciu w przycisk na tej stronce będzie przesyłał formularz z gotowym postem o treści: "Chciałbym ogłosić przekazanie swojego majątku fundacji walki z k"</br>
+Napisz skrypt .html, który po kliknięciu w przycisk na tej stronce będzie przesyłał formularz z gotowym postem o treści: "Chciałbym ogłosić przekazanie swojego majątku fundacji walki z meduzami w Morzu Śródziemnym"</br>
 Zrób to będąc zalogowanym na koncie 'zadania'.
 
 > uwaga: jest to atak metodą POST, więc musisz zaatakować stronę, która dodaje posty właśnie tą metodą -> mainpage.php
@@ -52,6 +52,7 @@ Zrób to będąc zalogowanym na koncie 'zadania'.
 ## Zadanie 3- login CSRF
 
 Stwórz nowe konto w bazie danych (zrób to w phpmyadmin w tabeli 'login'). </br>
-Przeprowadź atak login CSRF, czyli stwórz skrypt, dzięki któremu klikając coś na stronie (tej stworzonej teraz przez Ciebie) zalogujesz się na to nowo stworzone konto. Następnie dodaj tam jakiś post (nieuważny użytkownik może nie zwrócić uwagi, że dodaje coś nie na swoim koncie).
+Przeprowadź atak login CSRF, czyli stwórz skrypt, dzięki któremu klikając coś na stronie (tej stworzonej teraz przez Ciebie) zalogujesz się na to nowo stworzone konto. </br> 
+Następnie dodaj tam jakiś post (nieuważny użytkownik może nie zwrócić uwagi, że dodaje coś nie na swoim koncie) o treści: "Pamiętniczku, dzień 3- dziś przy moim mieszkaniu na Łobzowskiej 17 przydarzył się straszny wypadek...".
 
 ## Zadanie 4
