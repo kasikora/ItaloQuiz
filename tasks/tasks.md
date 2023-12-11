@@ -32,7 +32,7 @@ Po zrobieniu każdego zadania umieść na UPELu zrzut ekranu kodu/skryptu/zapyta
 ### 1.1
 
 Przeprowadzisz tutaj atak CSRF na stronę, która dodaje posty metodą GET (mainpage_get.php).
-Poprzez specjalnie spreparowany link lub cały skrypt .html (który po kliknięciu w jakiś przycisk będzie ) dodaj nowy post o treści: "Deadline projektu z Comnet minął 2 tygodnie temu hahahaha"
+Poprzez specjalnie spreparowany link lub cały skrypt .html (strona, która po kliknięciu w jakiś przycisk uruchomi spreparowany link przekierowujący na mainpage_get.php) dodaj nowy post o treści: "Deadline projektu z Comnet minął 2 tygodnie temu hahahaha"
 Zrób to będąc zalogowanym na koncie 'zadania'.
 
 ### 1.2
