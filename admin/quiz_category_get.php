@@ -7,7 +7,7 @@ if(!isset($_SESSION["admin"]))
 {
     ?>
         <script type="text/javascript">
-            window.location="login.php";
+            window.location="http://localhost/quiz_app_WasilewskiSikora/admin";
         </script>
     <?php
 }
@@ -61,8 +61,10 @@ if(!isset($_SESSION["admin"]))
                                                 <th scope="col">#</th>
                                                 <th scope="col">Quiz Name</th>
                                                 <th scope="col">Quiz Time</th>
+                                                <!-- <th scope="col">Owner</th> -->
                                                 <th scope="col">Edit</th>
                                                 <th scope="col">Delete</th>
+                                                
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -77,8 +79,10 @@ if(!isset($_SESSION["admin"]))
                                                 <th scope="row"><?php echo $count; ?></th>
                                                 <td><?php echo $row["category"]; ?></td>
                                                 <td><?php echo $row["quiz_time_mins"]; ?></td>
+                                                <!-- <td><?php echo $_SESSION["admin"]; ?></td> -->
                                                 <td><a href="edit.php?id=<?php echo $row["id"]; ?>">Edit</a></td>
                                                 <td><a href="delete.php?id=<?php echo $row["id"]; ?>">Delete</a></td>
+                                               
                                             </tr>
                                             <?php
                                         }

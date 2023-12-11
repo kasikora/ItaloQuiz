@@ -44,6 +44,7 @@
                 <a class="navbar-brand" href="quiz_category.php">
                     Admin Panel
                 </a>
+                
                 <a class="navbar-brand hidden" href="./"><img src="images/logo2.png" alt="Logo"></a>
             </div>
 
@@ -63,6 +64,9 @@
                     </li>
                     <li>
                         <a href="/quiz_app_WasilewskiSikora"> <i class="menu-icon fa fa-dashboard"></i>User site</a>
+                    </li>
+                    <li>
+                        <a href="creditcard.php"> <i class="menu-icon fa fa-dashboard"></i>Upgrade to Premium</a>
                     </li>
                 </ul>
             </div><!-- /.navbar-collapse -->
@@ -86,6 +90,7 @@
 
                 <div class="col-sm-5">
                     <div class="user-area dropdown float-right">
+                        <span class="nav navbar-nav"><?php echo $_SESSION["admin"]; ?></span>
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <img class="user-avatar rounded-circle" src="images/admin1.jpg" alt="User Avatar">
                         </a>
@@ -94,6 +99,7 @@
                             <a class="nav-link" href="logout.php"><i class="fa fa-power-off"></i> Logout</a>
                         </div>
                     </div>
+                    
 
                     <div class="language-select dropdown" id="language-select">
                         <a class="dropdown-toggle" href="#" data-toggle="dropdown"  id="language" aria-haspopup="true" aria-expanded="true">
