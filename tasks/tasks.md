@@ -5,7 +5,9 @@ Pobierz nasz mini projekt (nie ma potrzeby pobierania całego projektu quizowego
 Uruchom naszą aplikację na serwerze lokalnym, aby mieć dostęp do niej poprzez przeglądarkę wpisując
 > http://localhost/tasks/mainpage.php
 
-Możesz zrobić to w xampp dodając wypakowany folder do katalogu 'htdocs'.
+Możesz zrobić to w xampp dodając wypakowany folder do katalogu 'htdocs'. </br>
+
+W xampp uruchom serwer Apache i MySQL:
 
 ![image](https://github.com/miwasil/ItaloQuizz/assets/115273240/b8599d69-3eab-4ced-8cce-fee5398629f3)
 
@@ -13,6 +15,8 @@ Aby uruchomić bazę danych wejdź w PHPmyAdmin
 > http://localhost/phpmyadmin
 
 Stwórz nową bazę danych o nazwie 'posting', następnie kliknij w prawym górnym rogu 'Import' i wybierz dump naszej bazy danych z wcześniej pobranego folderu (posting.sql). Jeżeli pojawią się jakieś błędy to je zignoruj.
-Sprawdź czy wszystko działa poprawnie, zaloguj się dodaj nowy post. Możesz użyć już stworzonego konta (email: zadania  hasło: zadania).
+Sprawdź czy wszystko działa poprawnie, zaloguj się dodaj nowy post. Możesz użyć już stworzonego konta:
+> email: zadania
+> hasło: zadania
 
 
