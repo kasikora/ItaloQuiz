@@ -2,7 +2,7 @@
 
 ## Przygotowanie środowiska
 
-Pobierz nasz mini projekt (nie ma potrzeby pobierania całego projektu quizowego), na którym sam przeprowadzisz ataki CSRF, XSS takie jak my na naszej prezentacji i spróbujesz zabezpieczyć stronę </br>
+Pobierz nasz mini projekt z folderu 'tasks' (nie ma potrzeby pobierania całego projektu quizowego), na którym sam przeprowadzisz ataki CSRF, XSS takie jak my na naszej prezentacji i spróbujesz zabezpieczyć stronę </br>
 [Pobierz stąd](https://drive.google.com/file/d/1CENacje-JxjyBzniWqFldpH-EGFcZsLM/view?usp=sharing) </br> </br> </br>
 Uruchom naszą aplikację na serwerze lokalnym, aby mieć dostęp do niej poprzez przeglądarkę wpisując
 > http://localhost/tasks/mainpage.php
