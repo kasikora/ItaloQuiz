@@ -29,10 +29,21 @@ Sprawdź czy wszystko działa poprawnie logując się i dodając nowy post. Moż
 Po zrobieniu każdego zadania umieść na UPELu zrzut ekranu kodu/skryptu/zapytania oraz efektu, jaki on daje.
 
 ## Zadanie 1- CSRF GET
+### 1.1
 
 Przeprowadzisz tutaj atak CSRF na stronę, która dodaje posty metodą GET (mainpage_get.php).
+Poprzez specjalnie spreparowany link lub cały skrypt .html (który po kliknięciu w jakiś przycisk będzie ) dodaj nowy post o treści: "Deadline projektu z Comnet minął 2 tygodnie temu hahahaha"
+Zrób to będąc zalogowanym na koncie 'zadania'.
+
+### 1.2
+
+Tutaj będziesz miał analogiczne zadanie, jednak stwórz skrypt .html, który po otwarciu tej strony automatycznie doda nam post o treści: "Wraz z dzisiejszym dniem kończę współpracę z moimi sponsorami"
+
+> podpowiedź: fałszywe zdjęcie
 
 ## Zadanie 2- CSRF POST
+
+
 
 ## Zadanie 3- login CSRF
 
