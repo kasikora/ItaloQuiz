@@ -26,6 +26,7 @@ Sprawdź czy wszystko działa poprawnie logując się i dodając nowy post. Moż
 > email: zadania </br>
 > hasło: zadania
 
+Po zrobieniu każdego zadania umieść na UPELu zrzut ekranu kodu/skryptu/zapytania oraz efektu, jaki on daje.
 
 ## Zadanie 1- CSRF GET
 
