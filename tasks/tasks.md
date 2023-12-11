@@ -58,3 +58,33 @@ Przeprowadź atak login CSRF, czyli stwórz skrypt, dzięki któremu klikając c
 Następnie dodaj tam jakiś post (nieuważny użytkownik może nie zwrócić uwagi, że dodaje coś nie na swoim koncie) o treści: `Pamiętniczku, dzień 3- dziś przy moim mieszkaniu na Łobzowskiej 17 przydarzył się straszny wypadek...`.
 
 ## Zadanie 4
+
+
+
+# Zadanie 5 – TOKEN CSRF
+
+Token CSRF jest najbardziej popularnym zabezpieczeniem przed atakami CSRF. Polega on na dodawaniu ukrytego pola w formularzu zawierającego losowy ciąg znaków. Tak powiązany token z ciasteczkami sesji pozwala na skuteczną weryfikację zapytań po stronie serwera. Atakujący nie jest w stanie odgadnąć tokenu ustanowionego dla danej sesji, więc każde sfabrykowane zapytanie będzie odrzucane przez serwer.
+
+## a) Generowanie unikalnego tokenu
+
+Aby zabezpieczenie działało poprawnie, należy wygenerować unikalny token przy ustanawianiu nowej sesji, na przykład podczas logowania się przez użytkownika. Warto przechowywać taki token w zmiennej $_SESSION.
+
+Psst!! Gdzieś w tym miejscu trzeba to zrobić (loginpage.php)
+![5a](https://github.com/miwasil/ItaloQuizz/assets/115181450/6107a243-fdde-4961-a78b-97b658b5199a)
+
+## b) Przekazywanie tokenu CSRF klientowi
+
+Następnie należy przekazać token CSRF klientowi. W zapytaniach POST używa się do tego pola input z parametrem hidden. Dzięki temu token będzie przesyłany za każdym razem, gdy używamy konkretnego formularza. Robimy to w formularzu w pliku mainpage.php. 
+
+![5b](https://github.com/miwasil/ItaloQuizz/assets/115181450/87a75bb3-3205-4b7d-99e7-de51ccffc034)
+
+
+
+## c) Walidacja tokenu CSRF
+
+Ostatnim krokiem jest weryfikacja czy dla danego zapytania token jest poprawny (lub czy w ogóle istnieje). Tutaj znowu należy coś dodać do pliku mainpage.php
+
+Można to zrobić gdzieś w tym miejscu (wystarczy prosty if sprawdzający token jest prawidłowy lub czy w ogóle istnieje)
+![5c](https://github.com/miwasil/ItaloQuizz/assets/115181450/18337054-f1ab-47a4-9e1a-a724fdd234aa)
+
+Tak zaimplementowany token zabezpiecza użytkownika przed atakami CSRF. Należy jednak pamiętać, że taki token musi być zawarty w każdym zapytaniu generowanym do serwera (np. w każdym formularzu). Dodatkowo aby takie zabezpieczenie miało sens, aplikacja musi być zabezpieczona przed atakami XSS tak aby nie dało się wykraść wartości tokena.
