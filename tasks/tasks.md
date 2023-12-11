@@ -22,6 +22,7 @@ Aby uruchomić bazę danych wejdź w PHPmyAdmin
 > http://localhost/phpmyadmin
 
 Stwórz nową bazę danych o nazwie 'posting', następnie kliknij w prawym górnym rogu 'Import' i wybierz dump naszej bazy danych z wcześniej pobranego folderu (posting.sql). Jeżeli pojawią się jakieś błędy to je zignoruj.
+
 Sprawdź czy wszystko działa poprawnie logując się i dodając nowy post. Możesz użyć już stworzonego konta:
 
 > email: zadania </br>
@@ -39,7 +40,7 @@ Zrób to będąc zalogowanym na koncie 'zadania'.
 ### 1.2
 
 Tutaj będziesz miał analogiczne zadanie, jednak stwórz skrypt .html, który po otwarciu tej strony automatycznie doda nam post o treści: `Wraz z dzisiejszym dniem kończę współpracę z moimi sponsorami`. </br>
-Zrób to będąc zalogowanym na koncie 'zadania'.
+Chodzi tutaj o to, żeby przeprowadzić atak, gdy użytkownik wchodzi tylko na stronę (stworzoną przez Ciebie) ale nie wchodzi w żadne odnośniki na niej. Zrób to będąc zalogowanym na koncie 'zadania'. 
 
 > podpowiedź: fałszywe zdjęcie
 
