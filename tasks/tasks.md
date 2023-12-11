@@ -1,5 +1,7 @@
 # Zadania
+
 ## Przygotowanie środowiska
+
 Pobierz nasz mini projekt (nie ma potrzeby pobierania całego projektu quizowego), na którym sam przeprowadzisz ataki CSRF, XSS takie jak my na naszej prezentacji i spróbujesz zabezpieczyć stronę </br>
 [Pobierz stąd](https://drive.google.com/file/d/1CENacje-JxjyBzniWqFldpH-EGFcZsLM/view?usp=sharing) </br> </br> </br>
 Uruchom naszą aplikację na serwerze lokalnym, aby mieć dostęp do niej poprzez przeglądarkę wpisując
@@ -22,4 +24,12 @@ Sprawdź czy wszystko działa poprawnie logując się i dodając nowy post. Moż
 > email: zadania </br>
 > hasło: zadania
 
+
+## Zadanie 1- CSRF GET
+
+Przeprowadzisz tutaj atak CSRF na stronę, która dodaje posty metodą GET (mainpage_get.php).
+
+## Zadanie 2- CSRF POST
+
+## Zadanie 3- login CSRF
 
