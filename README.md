@@ -6,6 +6,9 @@ Authors: <br />
 [Michał Wasilewski](https://github.com/miwasil) <br />
 [Karol Sikora](https://github.com/kasikora)
 
+Part with cyber attacks was also performed with:
+[Dominik Nogaj](https://github.com/dnogaj) <br />
+
 ## About
 
 In this app you can create your own quizes, that can be solved by the others. Detailed results are shown after finishing quiz. Main theme of this app is to learn italian! <br />
