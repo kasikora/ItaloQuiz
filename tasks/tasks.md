@@ -52,6 +52,6 @@ Zrób to będąc zalogowanym na koncie 'zadania'.
 ## Zadanie 3- login CSRF
 
 Stwórz nowe konto w bazie danych (zrób to w phpmyadmin w tabeli 'login'). </br>
-Przeprowadź atak login CSRF, czyli stwórz skrypt, dzięki któremu klikając coś na stronie (tej stworzonej teraz przez Ciebie) zalogujesz się na to nowo stworzone konto. Następnie dodaj tam jakiś post.
+Przeprowadź atak login CSRF, czyli stwórz skrypt, dzięki któremu klikając coś na stronie (tej stworzonej teraz przez Ciebie) zalogujesz się na to nowo stworzone konto. Następnie dodaj tam jakiś post (nieuważny użytkownik może nie zwrócić uwagi, że dodaje coś nie na swoim koncie).
 
 ## Zadanie 4
