@@ -87,7 +87,7 @@ Takie pole może wyglądać w ten sposób
 
 Ostatnim krokiem jest weryfikacja czy dla danego zapytania token jest poprawny (lub czy w ogóle istnieje). Tutaj znowu należy coś dodać do pliku mainpage.php
 
-Można to zrobić gdzieś w tym miejscu (wystarczy prosty if sprawdzający token jest prawidłowy lub czy w ogóle istnieje)
+Można to zrobić gdzieś w tym miejscu (wystarczy prosty if sprawdzający czy token jest prawidłowy lub czy w ogóle istnieje)
 ![5c](https://github.com/miwasil/ItaloQuizz/assets/115181450/18337054-f1ab-47a4-9e1a-a724fdd234aa)
 
-Tak zaimplementowany token zabezpiecza użytkownika przed atakami CSRF. Należy jednak pamiętać, że taki token musi być zawarty w każdym zapytaniu generowanym do serwera (np. w każdym formularzu). Dodatkowo aby takie zabezpieczenie miało sens, aplikacja musi być zabezpieczona przed atakami XSS tak aby nie dało się wykraść wartości tokena.
+Tak zaimplementowany token zabezpiecza użytkownika przed atakami CSRF, można sprawdzić jego działanie przeprowadzając jeden z ataków z poprzednich zadań. Należy jednak pamiętać, że taki token musi być zawarty w każdym zapytaniu generowanym do serwera (np. w każdym formularzu). Dodatkowo aby takie zabezpieczenie miało sens, aplikacja musi być zabezpieczona przed atakami XSS tak aby nie dało się wykraść wartości tokenu.
