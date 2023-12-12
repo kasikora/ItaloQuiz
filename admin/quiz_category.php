@@ -7,7 +7,7 @@ if(!isset($_SESSION["admin"]))
 {
     ?>
         <script type="text/javascript">
-            window.location="http://localhost/quiz_app_WasilewskiSikora/admin";
+            window.location="index.php";
         </script>
     <?php
 }
@@ -112,7 +112,7 @@ if (isset($_POST["submit1"]))
     
     <script type="text/javascript">
         //alert("Quiz was added successfully");
-        window.location.href="admin/quiz_category.php";
+        window.location.href="quiz_category.php";
     </script>
 
     <?php
