@@ -5,7 +5,7 @@
 Rozwiązując zadania może być przydatna [nasza prezentacja](https://docs.google.com/presentation/d/18oEkPeBZgzpucZXSkNZZfrV7JIZKFMknvblV2ELy2NY/edit?usp=sharing)
 
 Pobierz nasz mini projekt z folderu 'tasks' (nie ma potrzeby pobierania całego projektu quizowego), na którym sam przeprowadzisz ataki CSRF, XSS takie jak my na naszej prezentacji i spróbujesz zabezpieczyć stronę </br>
-[Pobierz stąd]([https://drive.google.com/file/d/1CENacje-JxjyBzniWqFldpH-EGFcZsLM/view?usp=sharing](https://drive.google.com/file/d/1sThmKwcVDeY6r7IHPI7GmDHnFDahghEO/view?usp=sharing)) </br> </br>
+[Pobierz stąd](https://drive.google.com/file/d/1sThmKwcVDeY6r7IHPI7GmDHnFDahghEO/view?usp=sharing) </br> </br>
 
 Uruchom naszą aplikację na serwerze lokalnym, aby mieć dostęp do niej poprzez przeglądarkę wpisując
 > http://localhost/tasks/mainpage.php
