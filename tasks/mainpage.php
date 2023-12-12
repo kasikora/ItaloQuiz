@@ -72,7 +72,7 @@ if(!isset($_SESSION["name"]))
                                                     <th scope="row"><?php echo $count; ?></th>
                                                     <td><?php echo $row["postcontent"]; ?></td>
                                                     <td><?php echo $row["creator"]; ?></td>
-                                                    <td><a href="delete.php?id=<?php echo $row["id"]; ?>">Delete me</a></td>
+                                                    <td><a href="deletepage.php?id=<?php echo $row["id"]; ?>">Delete me</a></td>
                                                 </tr>
                                                 <?php
                                             }
