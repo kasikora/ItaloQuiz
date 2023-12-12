@@ -112,7 +112,7 @@ if (isset($_GET["submit1"]))
     
     <script type="text/javascript">
         //alert("Quiz was added successfully");
-        window.location.href="http://localhost/quiz_app_WasilewskiSikora/admin/quiz_category.php";
+        window.location.href="admin/quiz_category_get.php";
     </script>
 
     <?php
