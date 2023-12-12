@@ -43,6 +43,7 @@ Tutaj będziesz miał analogiczne zadanie, jednak stwórz skrypt .html, który p
 Chodzi tutaj o to, żeby przeprowadzić atak, gdy użytkownik wchodzi tylko na stronę (stworzoną przez Ciebie) ale nie wchodzi w żadne odnośniki na niej. Zrób to będąc zalogowanym na koncie 'zadania'. 
 
 > podpowiedź: fałszywe zdjęcie
+
 </br></br></br>
 ## Zadanie 2- CSRF POST
 
@@ -50,6 +51,7 @@ Napisz skrypt .html, który po kliknięciu w przycisk na tej stronce będzie prz
 Zrób to będąc zalogowanym na koncie 'zadania'.
 
 > uwaga: jest to atak metodą POST, więc musisz zaatakować stronę, która dodaje posty właśnie tą metodą -> mainpage.php
+
 </br></br></br>
 ## Zadanie 3- login CSRF
 
@@ -57,7 +59,7 @@ Stwórz nowe konto w bazie danych (zrób to w phpmyadmin w tabeli 'login'). </br
 Przeprowadź atak login CSRF, czyli stwórz skrypt, dzięki któremu klikając coś na stronie (tej stworzonej teraz przez Ciebie) zalogujesz się na to nowo stworzone konto. </br> 
 Następnie dodaj tam jakiś post (nieuważny użytkownik może nie zwrócić uwagi, że dodaje coś nie na swoim koncie) o treści: `Pamiętniczku, dzień 3- dziś przy moim mieszkaniu na Łobzowskiej 17 przydarzył się straszny wypadek...`.
 </br></br></br>
-## Zadanie 4
+## Zadanie 4- XSS
 
 ### 4.1
 
