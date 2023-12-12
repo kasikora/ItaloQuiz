@@ -29,7 +29,7 @@ Sprawdź czy wszystko działa poprawnie logując się i dodając nowy post. Moż
 > hasło: zadania
 
 Po zrobieniu każdego zadania umieść na UPELu zrzut ekranu kodu/skryptu/zapytania oraz efektu, jaki on daje.
-
+</br></br></br>
 ## Zadanie 1- CSRF GET
 ### 1.1
 
@@ -43,20 +43,20 @@ Tutaj będziesz miał analogiczne zadanie, jednak stwórz skrypt .html, który p
 Chodzi tutaj o to, żeby przeprowadzić atak, gdy użytkownik wchodzi tylko na stronę (stworzoną przez Ciebie) ale nie wchodzi w żadne odnośniki na niej. Zrób to będąc zalogowanym na koncie 'zadania'. 
 
 > podpowiedź: fałszywe zdjęcie
-
+</br></br></br>
 ## Zadanie 2- CSRF POST
 
 Napisz skrypt .html, który po kliknięciu w przycisk na tej stronce będzie przesyłał formularz z gotowym postem o treści: `Chciałbym ogłosić przekazanie swojego majątku fundacji walki z meduzami w Morzu Śródziemnym`. </br>
 Zrób to będąc zalogowanym na koncie 'zadania'.
 
 > uwaga: jest to atak metodą POST, więc musisz zaatakować stronę, która dodaje posty właśnie tą metodą -> mainpage.php
-
+</br></br></br>
 ## Zadanie 3- login CSRF
 
 Stwórz nowe konto w bazie danych (zrób to w phpmyadmin w tabeli 'login'). </br>
 Przeprowadź atak login CSRF, czyli stwórz skrypt, dzięki któremu klikając coś na stronie (tej stworzonej teraz przez Ciebie) zalogujesz się na to nowo stworzone konto. </br> 
 Następnie dodaj tam jakiś post (nieuważny użytkownik może nie zwrócić uwagi, że dodaje coś nie na swoim koncie) o treści: `Pamiętniczku, dzień 3- dziś przy moim mieszkaniu na Łobzowskiej 17 przydarzył się straszny wypadek...`.
-
+</br></br></br>
 ## Zadanie 4
 
 ### 4.1
@@ -85,8 +85,7 @@ Natomiast poniższy kod wpisujemy zamiast nazwy quizu:
 > <script src="/bagno.js" defer></script>
 
 Ten skrypt pobierze inny skrypt znajdujący się w pliku bagno.js na naszym serwerze. W rzeczywistym scenariuszu umieścilibyśmy ten kod na innym serwerze niż strona.
-
-
+</br></br></br>
 
 ## Zadanie 5 – TOKEN CSRF
 
