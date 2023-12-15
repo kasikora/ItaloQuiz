@@ -62,6 +62,7 @@ Przeprowadź atak login CSRF, czyli stwórz skrypt, dzięki któremu klikając c
 Następnie dodaj tam jakiś post (nieuważny użytkownik może nie zwrócić uwagi, że dodaje coś nie na swoim koncie) o treści: `Pamiętniczku, dzień 3- dziś przy moim mieszkaniu na Łobzowskiej 17 przydarzył się straszny wypadek...`.
 </br></br></br>
 ## Zadanie 4- XSS
+Jako odpowiedź wyślij źródło strony (po ataku).
 
 ### 4.1
 
